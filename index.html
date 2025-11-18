@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MoodWeb Journal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>MoodWeb Journal</h1>
+    <div class="mood-entry">
+      <div class="mood-buttons">
+        <button data-mood="happy">😊</button>
+        <button data-mood="sad">😢</button>
+        <button data-mood="stressed">😣</button>
+        <button data-mood="calm">😌</button>
+      </div>
+      <textarea id="journal" placeholder="Tulis perasaanmu …"></textarea>
+      <button id="save">Simpan</button>
+    </div>
+
+    <div class="history">
+      <h2>Riwayat Mood</h2>
+      <ul id="historyList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
